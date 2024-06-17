@@ -3,3 +3,4 @@ scoring.tar.gz filter=lfs diff=lfs merge=lfs -text
 example.tar.gz filter=lfs diff=lfs merge=lfs -text
 circular_RNA_Data.tar.gz filter=lfs diff=lfs merge=lfs -text
 runtime_log.tar.gz filter=lfs diff=lfs merge=lfs -text
+IsRNAcirc_standalone.tar.gz filter=lfs diff=lfs merge=lfs -text
