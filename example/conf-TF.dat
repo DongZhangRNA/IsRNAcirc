@@ -1,0 +1,7 @@
+Nstep 1000000      #Number of steps for MD simulation, 1 ns=1000000 steps
+Nstep_close 500000 #Number of steps for closing 5'-/3'-ends and tertiary base pairs, -1 means default steps
+Nstru 500          #Number of recorded structures from each replica, Nstru*10 structures in total
+PS 0.5             #The last 50% recorded structures from each replica are collected for conformational ensemble
+PE 0.1             #Top 10% lowest-energy structures are clustered to predict the 3D structures
+RMSD_Cut -1        #RMSD cutoff for clustering procedure, -1 means default cutoff
+Nout 3             #Number of predicted 3D structures

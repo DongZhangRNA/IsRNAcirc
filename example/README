@@ -1,0 +1,3 @@
+Example for circular RNA 3D structure prediction by IsRNAcirc with the provided initial 3D structure of the corresponding linear RNA (in "./initial_3D_structure/initial*.pdb").
+Enter the folder "EP23D2_empty" and run "bash example.sh", and the predicted 3D structures are given as "./predict/predict_IsRNAcirc.pdb".
+Data in the folder "EP23D2.zip" is our run results for reference.
